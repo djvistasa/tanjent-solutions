@@ -1,0 +1,8 @@
+design
+node_modules
+__snapshots__/
+src/components/**/**/__snapshots__
+coverage
+.vscode
+.DS_Store
+.vscode
