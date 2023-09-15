@@ -1,5 +1,6 @@
 import { action, createStore, persist } from "easy-peasy";
-import { IEmployee } from "../interfaces";
+
+import { IEmployee } from "../components/employee/types";
 import { defaultModalConfig } from "./defaults";
 import { StoreModel } from "./types";
 

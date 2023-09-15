@@ -44,4 +44,4 @@ interface StoreModel {
   ui: IUi;
 }
 
-export type { StoreModel };
+export type { StoreModel, ModalConfig };

@@ -1,4 +1,4 @@
-import { FilterOption, Skill } from "../../interfaces";
+import { FilterOption, Skill } from "../../types";
 
 interface IEmployee {
   id: string;

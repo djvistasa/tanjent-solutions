@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { ApiCall, ApiResponse } from '../interfaces';
+import axios from "axios";
+import { ApiCall, ApiResponse } from "../types";
 
 const getRandomNumber = () => {
   return Math.floor(Math.random() * Math.floor(10));
@@ -33,7 +33,7 @@ const makeApiCall = async (params: ApiCall): Promise<ApiResponse> => {
     const { data: response } = await axios({
       ...params,
       headers: {
-        accepts: 'application/json',
+        accepts: "application/json",
       },
     });
 
@@ -59,4 +59,4 @@ const hexToRGB = (hex: string, alpha: string): string => {
   return `rgb(${r}, ${g}, ${b})`;
 };
 
-export { calculateRem, makeApiCall, generateUniqueId, hexToRGB };
+export { calculateRem, generateUniqueId, hexToRGB, makeApiCall };

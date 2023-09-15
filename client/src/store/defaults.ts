@@ -1,4 +1,6 @@
-export const defaultModalConfig = {
+import { ModalConfig } from "./types";
+
+export const defaultModalConfig: ModalConfig = {
   isOpen: false,
   message: "",
   primaryAction: () => {},

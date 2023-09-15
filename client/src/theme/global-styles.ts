@@ -1,7 +1,7 @@
-import styled, { createGlobalStyle } from 'styled-components';
-import reset from 'styled-reset';
+import styled, { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
-import { calculateRem } from '../utils';
+import { calculateRem } from "../utils";
 
 const GlobalStyles = createGlobalStyle`
   ${reset};
@@ -41,7 +41,7 @@ const GlobalStyles = createGlobalStyle`
 
   strong {
     font-weight: 700;
-  } 
+  }
 
     input, select {
     border: none;

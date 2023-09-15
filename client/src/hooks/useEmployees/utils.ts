@@ -1,4 +1,4 @@
-import { IEmployee } from "../../interfaces";
+import { IEmployee } from "../../types";
 
 const addEachEmployeesTotalNumberOfExp = (employees: IEmployee[]) =>
   employees.map((employee) => {

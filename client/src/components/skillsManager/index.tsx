@@ -7,8 +7,9 @@
 import { useFieldArray } from "react-hook-form";
 import { ReactComponent as DeleteIcon } from "../../assets/svg/icon-delete.svg";
 import { ReactComponent as PlusIcon } from "../../assets/svg/icon-plus.svg";
-import { SeniorityRating } from "../../enums";
+
 import Button from "../button";
+import { SeniorityRating } from "../form/enums";
 import { FormInputs } from "../form/types";
 import Input from "../formFields/input";
 import { StyledRow, StyledSkillsManager, StyledSkillsTable } from "./styles";
